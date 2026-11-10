@@ -4,6 +4,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import Confetti from 'react-confetti'
 import './App.css'
+import PlanetScene from './PlanetScene'
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +14,9 @@ function App() {
   return (
     <>
     <Confetti></Confetti>
+
+      <PlanetScene></PlanetScene>
+
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
@@ -122,3 +128,5 @@ function App() {
 }
 
 export default App
+
+
